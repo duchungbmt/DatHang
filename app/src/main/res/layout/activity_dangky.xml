@@ -1,0 +1,114 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#40BFEF"
+    tools:context="com.hung.dathang.JV_Dangky">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Ðăng Ký"
+            android:textColor="#FFFFFF"
+            android:textSize="50dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:id="@+id/txtv_Dangky_dangky" />
+
+
+
+        <EditText
+            android:layout_width="500px"
+            android:layout_height="80px"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="40px"
+            android:background="#FFFFFF"
+            android:hint="Nhập Username"
+            android:gravity="center"
+            android:id="@+id/edt_Dangky_username" />
+
+        <EditText
+            android:layout_width="500px"
+            android:layout_height="80px"
+            android:background="#FFFFFF"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="40px"
+            android:hint="Nhập Password"
+            android:gravity="center"
+            android:id="@+id/edt_Dangky_password" />
+
+        <EditText
+            android:layout_width="500px"
+            android:layout_height="80px"
+            android:background="#FFFFFF"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="40px"
+            android:hint="Nhập Tên "
+            android:gravity="center"
+            android:id="@+id/edt_Dangky_name" />
+
+        <EditText
+            android:layout_width="500px"
+            android:layout_height="80px"
+            android:background="#FFFFFF"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="40px"
+            android:hint="Nhập SÐT"
+            android:gravity="center"
+            android:id="@+id/edt_Dangky_phonenumber" />
+        <EditText
+            android:layout_width="500px"
+            android:layout_height="80px"
+            android:background="#FFFFFF"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="40px"
+            android:hint="Nhập Địa Chỉ"
+            android:gravity="center"
+            android:id="@+id/edt_Dangky_diachi"/>
+
+
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40px"
+            android:id="@+id/spinner"
+            android:spinnerMode="dropdown"
+            android:background="@android:drawable/btn_dropdown"
+            />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="80px"
+            android:gravity="center">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Trở về"
+                android:id="@+id/btn_Dangky_Trove"
+                android:layout_marginRight="40px"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Đăng Ký"
+                android:id="@+id/btn_Dangky_Dangky"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
