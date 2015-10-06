@@ -20,6 +20,14 @@
             android:name=".JV_Dangky"
             android:label="@string/title_activity_jv__dangky" >
         </activity>
+        <activity
+            android:name=".JV_Search"
+            android:label="@string/title_activity_jv__search" >
+        </activity>
+        <activity
+            android:name=".JV_Product_Kfc"
+            android:label="@string/title_activity_jv__product__kfc" >
+        </activity>
     </application>
 
 </manifest>
